@@ -12,7 +12,7 @@ fetch(url)
             readmeString += `<span style="background-color: #24292e">`+ chosenMeme.link_flair_text +`</span> `;
         readmeString += chosenMeme.title+`<br>![meme](`+chosenMeme.url_overridden_by_dest+`)<br>\r\n`;
         readmeString += `[Link to Comments](https://reddit.com`+chosenMeme.permalink+`)`;       
-        fs.writeFile("README.md", readmeString, 'utf8',()=>{
+        fs.writeFile("./README.md", readmeString, 'utf8',()=>{
             console.log("README updated successfully")
         })
     })
