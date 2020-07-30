@@ -2,11 +2,19 @@ name: generate README with a random meme
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/2 * * * *'
 jobs: 
   gen_readme_with_meme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: ./generateMeme
-        
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Change meme in readme" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
