@@ -7,5 +7,6 @@ jobs:
   gen_readme_with_meme:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - uses: ./generateMeme
         
