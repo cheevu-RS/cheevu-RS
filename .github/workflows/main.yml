@@ -1,0 +1,10 @@
+name: generate README with a random meme
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+jobs: 
+  gen_readme_with_meme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/action
