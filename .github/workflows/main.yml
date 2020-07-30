@@ -2,7 +2,7 @@ name: generate README with a random meme
 
 on:
   schedule:
-    - cron: '*/2 * * * *'
+    - cron: '*/60 * * * *'
 jobs: 
   gen_readme_with_meme:
     runs-on: ubuntu-latest
