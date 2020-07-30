@@ -1,3 +1,4 @@
-Hello there! <br>Here's a meme for you!<br>
-## <span style="background-color: #24292e">OC Maymay ♨ </span> Huzzah a man of quality!<br>![meme](https://i.redd.it/k9ekcb2gdud51.jpg)<br>
-[Link to Comments](https://reddit.com/r/dankmemes/comments/i063ui/huzzah_a_man_of_quality/)
+Hello there! <br>Here's a random dank meme for you from [r/dankmemes](https://reddit.com/r/dankmemes)!<br>
+## <span style="background-color: #24292e">Fresh from the cumsock</span> You can’t beat his stoyle<br>![meme](https://i.redd.it/hm0mk2ktewd51.jpg)<br>
+[Link to Comments](https://reddit.com/r/dankmemes/comments/i0d6wz/you_cant_beat_his_stoyle/)<br>
+Memes are updated hourly using Github Actions
