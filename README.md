@@ -1,4 +1,4 @@
 Hello there! <br>Here's a random dank meme for you from [r/dankmemes](https://reddit.com/r/dankmemes)!<br>
-## <span style="background-color: #24292e">Made With Mematic</span> [OC] TRUTH<br>![meme](https://i.redd.it/8siufiugf2e51.jpg)<br>
-[Link to Comments](https://reddit.com/r/dankmemes/comments/i0v0my/oc_truth/)<br>
+## The Universal Phrase<br><img src="https://i.redd.it/2x6lmv0yp0e51.png" alt="meme" width="300"/>)<br>
+[Link to Comments](https://reddit.com/r/dankmemes/comments/i0oovs/the_universal_phrase/)<br>
 Memes are updated hourly using Github Actions
