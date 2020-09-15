@@ -1,5 +1,8 @@
 name: 'genReadmeWithMeme'
 description: 'Generate readme with random meme'
+
 runs:
   using: 'node12'
   main: 'redditDankMeme.js' 
+  env:
+    DISCORD_BOT_KEY: ${{ secrets.DISCORD_BOT_KEY }}

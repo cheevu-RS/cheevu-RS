@@ -70,7 +70,7 @@ const init = async () => {
     })
 
     // intialize discord bot    
-    client.login('NzU1NDY3MTgwODQxMzY5NjIz.X2Dtow.R1VKnvAg71AXEQv5tOm1MsIOSYc');
+    client.login(process.env.DISCORD_BOT_KEY);
 }
 
 init();
