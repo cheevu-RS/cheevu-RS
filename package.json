@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/cheevu-RS/cheevu-RS#readme",
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "discord.js": "^12.3.1",
+    "node-fetch": "^2.6.1"
   }
 }
