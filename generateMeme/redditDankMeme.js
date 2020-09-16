@@ -45,7 +45,7 @@ const sendMeme = () => {
 }
 
 const writeReadme = () => {
-    let readmeString = `Hello there! <br>Here's a random dank meme for you from [r/dankmemes](https://reddit.com/r/dankmemes)!<br>\r\n##`
+    let readmeString = `Hello there! <br>Here's a random dank meme for you from [r/dankmemes](https://reddit.com/r/dankmemes)!<br>\r\n## `
     if(chosenMeme.link_flair_text)
         readmeString += `<span style="background-color: #24292e">`+ chosenMeme.link_flair_text +`</span> `;
     readmeString += chosenMeme.title+`<br><img src="`+chosenMeme.url_overridden_by_dest+`" alt="meme" width="300"/>`+`)<br>\r\n`;
