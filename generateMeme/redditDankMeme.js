@@ -7,6 +7,7 @@ let memes;
 let chosenMeme; 
 let chosenOne;
 let channel;
+
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
     
