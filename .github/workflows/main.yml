@@ -14,18 +14,15 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setup tmate session
         uses: mxschmitt/action-tmate@v3
-      # - name: run custom action
-      #   uses: ./generateMeme
-      #   with: 
-      #     DISCORD_BOT_KEY: ${{ secrets.DISCORD_BOT_KEY }}
-      # - name: Commit files 
-      #   run: |
-      #     git add README.md
-      #     git config --local user.email "action@github.com"
-      #     git config --local user.name "GitHub Action"
-      #     git commit -m "Change meme in readme" -a
-      # - name: Push changes
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: ./generateMeme
+      - name: Commit files 
+        run: |
+          git add README.md
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Change meme in readme" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
