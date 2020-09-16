@@ -8,6 +8,8 @@ on:
 jobs: 
   gen_readme_with_meme:
     runs-on: ubuntu-latest
+    env:
+      DISCORD_BOT_KEY: ${{ secrets.DISCORD_BOT_KEY }}
     steps:
       - uses: actions/checkout@v2
       - name: Setup tmate session
