@@ -70,7 +70,7 @@ const init = async () => {
     })
 
     // intialize discord bot    
-    client.login(process.env.INPUT_DISCORD_BOT_KEY);
+    client.login(process.env.DISCORD_BOT_KEY);
 }
 
 init();

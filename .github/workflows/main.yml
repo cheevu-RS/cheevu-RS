@@ -11,6 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: ./generateMeme
+        with: 
+          DISCORD_BOT_KEY: ${{ secrets.DISCORD_BOT_KEY }}
       - name: Commit files
         run: |
           git add README.md
@@ -21,3 +23,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
