@@ -21,6 +21,12 @@ client.on('message', msg => {
   if (msg.content === '$help') {
     msg.channel.send('Hi there, I help you approve your memes!');
   }
+  if (msg.content === '$send') {
+      sendMeme();
+  }
+  if (msg.content === '$left') {
+      msg.channel.send('Memes left = ', memes.length);
+  }
 });
 client.on('messageReactionAdd', (reaction, user) => {
     console.log(reaction.emoji);
@@ -36,7 +42,7 @@ client.on('messageReactionAdd', (reaction, user) => {
 
 const sendMeme = () => {
     if(memes.length == 0){
-        channel.send("You don't like any of the top reddit dank memes");
+        msg.channel.send("You don't like any of the top reddit dank memes");
         client.destroy();
     }
     chosenOne = Math.floor(Math.random()*memes.length);
