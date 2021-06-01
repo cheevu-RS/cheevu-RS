@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/voting_machines.png" alt="meme" width="300"/>)<br>
+## <img src="https://imgs.xkcd.com/comics/rock_band.png" alt="meme" width="300"/>)<br>
 Comics are updated once a day using Github Actions
