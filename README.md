@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/geology.png" alt="meme" width="300"/>)<br>
+## <img src="https://imgs.xkcd.com/comics/proteins.png" alt="meme" width="300"/>)<br>
 Comics are updated once a day using Github Actions
