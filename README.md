@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/why_do_you_love_me.jpg" alt="meme" width="300"/>)<br>
+## <img src="https://imgs.xkcd.com/comics/date.png" alt="meme" width="300"/>)<br>
 Comics are updated once a day using Github Actions
