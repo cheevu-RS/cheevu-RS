@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/hurricane_names.png" alt="meme" width="300"/>)<br>
+## <img src="https://imgs.xkcd.com/comics/crowdsourcing.png" alt="meme" width="300"/>)<br>
 Comics are updated once a day using Github Actions
