@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/smart_home_security.png" alt="meme" width="300"/>)<br>
+## <img src="<a href= "https://imgs.xkcd.com/comics/frame.jpg">https://imgs.xkcd.com/comics/frame.jpg</a>" alt="meme" width="300"/>)<br>
 Comics are updated once a day using Github Actions
