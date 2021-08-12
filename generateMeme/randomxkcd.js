@@ -26,8 +26,10 @@ const init = async () => {
     const url = 'https://xkcd.com/'+number+"/";
     const response = await fetch(url)
     const data = await response.text()
-    const pattern = "hotlinking\/embedding\): <a href= \"(.*)\"";
-    image_url = data.match(pattern)[0].split(": ")[1];
+    const pattern = "hotlinking\/embedding\\\): <a href= \"(.*)\"";
+    // have to \\\ to escape special char in string regex pattern    
+    image_url = data.match(pattern)[0].split('"')[1].split('"')[0];
+
     await writeReadme();
 
 }
