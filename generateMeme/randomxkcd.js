@@ -8,7 +8,7 @@ let image_url;
 
 const writeReadme = async () => {
     let readmeString = `Hello there! <br>Here's a random xkcd comic!<br>\r\n## `
-    readmeString += `<img src="`+image_url+`" alt="meme" width="400"/>`+`)<br>\r\n`;
+    readmeString += `<img src="`+image_url+`" alt="meme" width="400"/>`+`<br>\r\n`;
     readmeString += `Comics are updated once a day using Github Actions`;
     await fs.writeFile("./README.md", readmeString, 'utf8',() => {
         console.log("README updated successfully")
