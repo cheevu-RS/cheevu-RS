@@ -8,7 +8,7 @@ let image_url;
 
 const writeReadme = async () => {
     let readmeString = `Hello there! <br>Here's a random xkcd comic!<br>\r\n## `
-    readmeString += `<img src="`+image_url+`" alt="meme" width="300"/>`+`)<br>\r\n`;
+    readmeString += `<img src="`+image_url+`" alt="meme" width="400"/>`+`)<br>\r\n`;
     readmeString += `Comics are updated once a day using Github Actions`;
     await fs.writeFile("./README.md", readmeString, 'utf8',() => {
         console.log("README updated successfully")
@@ -26,7 +26,7 @@ const init = async () => {
     const url = 'https://xkcd.com/'+number+"/";
     const response = await fetch(url)
     const data = await response.text()
-    const pattern = "hotlinking\/embedding(.*)";
+    const pattern = "hotlinking\/embedding\): <a href= \"(.*)\"";
     image_url = data.match(pattern)[0].split(": ")[1];
     await writeReadme();
 
