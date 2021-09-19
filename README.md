@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/desert_golfing.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/lebron_james_and_stephen_curry.png" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
