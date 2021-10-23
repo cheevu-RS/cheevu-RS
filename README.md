@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/no_pun_intended.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/middle_latitudes.png" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
