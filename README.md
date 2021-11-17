@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/astronomy_status_board.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/evaluating_tech_things.png" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
