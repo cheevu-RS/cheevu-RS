@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/book_burning.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/staceys_dad.jpg" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
