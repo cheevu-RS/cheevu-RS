@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/dPain_over_dt.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/deer_turrets.png" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
