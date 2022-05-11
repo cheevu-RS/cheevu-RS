@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/how_to_make_friends.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/volcano_types.png" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
