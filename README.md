@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/planning.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/cd_tray_fight.png" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
