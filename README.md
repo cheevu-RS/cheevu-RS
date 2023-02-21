@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/never_do_this.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/usb_cables.png" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
