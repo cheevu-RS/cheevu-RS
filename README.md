@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/dark_matter.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/canyon_small.jpg" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
