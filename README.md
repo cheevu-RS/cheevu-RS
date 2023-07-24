@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/hydraulic_analogy.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/travel_ghosts.png" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
