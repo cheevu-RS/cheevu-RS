@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/goldbach_conjectures.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/im_an_idiot.png" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
