@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/first_design.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/jeremy_irons.jpg" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
