@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/inspiraling_roundabout.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/music_drm.png" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
