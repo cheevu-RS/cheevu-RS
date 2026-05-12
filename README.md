@@ -1,3 +1,3 @@
 Hello there! <br>Here's a random xkcd comic!<br>
-## <img src="https://imgs.xkcd.com/comics/ted_talk.png" alt="meme" width="400"/><br>
+## <img src="https://imgs.xkcd.com/comics/prudence.png" alt="meme" width="400"/><br>
 Comics are updated once a day using Github Actions
